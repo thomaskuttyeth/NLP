@@ -29,9 +29,6 @@ for i in range(len(sentences)):
     review = ' '.join(review)
     corpus.append(review) 
 
-# print(corpus[0:5]) 
-print()
-# print(sentences[0:5]) 
 
 
 # creating the bag_of_words 
@@ -39,4 +36,4 @@ from sklearn.feature_extraction.text import CountVectorizer
 cv=CountVectorizer() 
 X = cv.fit_transform(corpus).toarray() 
 
-print(X) 
+
