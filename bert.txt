@@ -1,0 +1,15 @@
+
+
+language model developed by google 
+
+how can we capture similarities between two words? 
+we look at features of two words. 
+If we can derive some features for objects then we can compare the similarities between them. 
+
+How to translate words to features?
+we create vectors and compare them
+These feature vectors are called word embeddings. 
+word2vec is one of the way to create word embeddings. 
+
+BERT can generate contextualized embeddings 
+bert can generate embeddings for entire sentence usually of 768 lenth. 
